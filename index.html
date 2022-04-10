@@ -36,7 +36,7 @@
     <section class="hero">
       <picture>
         <source media="(min-width: 800px)" srcset="./images/bg-intro-desktop.svg" />
-        <img src="./images/bg-intro-mobile.svg" alt="" />
+        <img src="./images/bg-intro-mobile.svg" alt="" class="hero-background-image"/>
       </picture>
       <img src="./images/image-mockups.png" alt="" class="hero-mockupImg">
       <div>
@@ -50,46 +50,48 @@
       </div>
     </section>
 
-    <section>
-      <h2>Why choose Easybank?</h2>
-      <p>
+    <section class="why-choose">
+      <!-- why choose heaser  -->
+      <h2 class="why-choose-header">Why choose Easybank?</h2>
+      <p class="why-choose-discription">
         We leverage Open Banking to turn your bank account into your financial
         hub. Control your finances like never before.
       </p>
 
       <!-- row -->
-      <div class="row">
-        <div>
-          <img src="./images/icon-online.svg" alt="" />
-          <h3>Online Banking</h3>
-          <p>
+      <div class="why-choose-row">
+
+        <div class="why-choose-col">
+          <img src="./images/icon-online.svg" alt="" class="why-choose-col-icon"/>
+          <h3 class="why-choose-col-header">Online Banking</h3>
+          <p class="why-choose-col-discription">
             Our modern web and mobile applications allow you to keep track of
             your finances wherever you are in the world.
           </p>
         </div>
 
-        <div>
-          <img src="./images/icon-budgeting.svg" alt="" />
-          <h3>Simple Budgeting</h3>
-          <p>
+        <div class="why-choose-col">
+          <img src="./images/icon-budgeting.svg" alt="" class="why-choose-col-icon"/>
+          <h3 class="why-choose-col-header">Simple Budgeting</h3>
+          <p class="why-choose-col-discription">
             See exactly where your money goes each month. Receive
             notifications when you’re close to hitting your limits.
           </p>
         </div>
 
-        <div>
-          <img src="./images/icon-onboarding.svg" alt="" />
-          <h3>Fast Onboarding</h3>
-          <p>
+        <div class="why-choose-col">
+          <img src="./images/icon-onboarding.svg" alt="" class="why-choose-col-icon"/>
+          <h3 class="why-choose-col-header">Fast Onboarding</h3>
+          <p class="why-choose-col-discription">
             We don’t do branches. Open your account in minutes online and
             start taking control of your finances right away.
           </p>
         </div>
 
-        <div>
-          <img src="./images/icon-api.svg" alt="" />
-          <h3>Open API</h3>
-          <p>
+        <div class="why-choose-col">
+          <img src="./images/icon-api.svg" alt="" class="why-choose-col-icon"/>
+          <h3 class="why-choose-col-header">Open API</h3>
+          <p class="why-choose-col-discription">
             Manage your savings, investments, pension, and much more from one
             account. Tracking your money has never been easier.
           </p>
@@ -97,44 +99,45 @@
       </div>
     </section>
 
-    <section>
-      <h2>Latest Articles</h2>
-      <div>
-        <div>
+    <section class="latestArticle">
+      <h2 class="latestArticle-header">Latest Articles</h2>
+      <div class="latestArticle-row">
+
+        <div class="latestArticle-col">
           <img src="./images/image-currency.jpg" alt="" />
-          <p>By Claire Robinson</p>
-          <h3><a href="/">Receive money in any currency with no fees</a></h3>
-          <p>
+          <p class="latestArticle-col-Author">By Claire Robinson</p>
+          <h3 class="latestArticle-col-header"><a href="/">Receive money in any currency with no fees</a></h3>
+          <p class="latestArticle-col-discription">
             The world is getting smaller and we’re becoming more mobile. So
             why should you be forced to only receive money in a single …
           </p>
         </div>
 
-        <div>
+        <div class="latestArticle-col">
           <img src="./images/image-restaurant.jpg" alt="" />
-          <p>By Wilson Hutton</p>
-          <h3>Treat yourself without worrying about money</h3>
-          <p>
+          <p class="latestArticle-col-Author">By Wilson Hutton</p>
+          <h3 class="latestArticle-col-header"><a href="/">Treat yourself without worrying about money</a></h3>
+          <p class="latestArticle-col-discription">
             Our simple budgeting feature allows you to separate out your
             spending and set realistic limits each month. That means you …
           </p>
         </div>
 
-        <div>
+        <div class="latestArticle-col">
           <img src="./images/image-plane.jpg" alt="" />
-          <p>By Wilson Hutton</p>
-          <h3>Take your Easybank card wherever you go</h3>
-          <p>
+          <p class="latestArticle-col-Author">By Wilson Hutton</p>
+          <h3 class="latestArticle-col-header"><a href="/">Take your Easybank card wherever you go</a></h3>
+          <p class="latestArticle-col-discription">
             We want you to enjoy your travels. This is why we don’t charge any
             fees on purchases while you’re abroad. We’ll even show you …
           </p>
         </div>
 
-        <div>
+        <div class="latestArticle-col">
           <img src="./images/image-confetti.jpg" alt="" />
-          <p>By Claire Robinson</p>
-          <h3>Our invite-only Beta accounts are now live!</h3>
-          <p>
+          <p class="latestArticle-col-Author">By Claire Robinson</p>
+          <h3 class="latestArticle-col-header"><a href="/">Our invite-only Beta accounts are now live!</a></h3>
+          <p class="latestArticle-col-discription">
             After a lot of hard work by the whole team, we’re excited to
             launch our closed beta. It’s easy to request an invite through the
             site ...
@@ -144,10 +147,10 @@
     </section>
   </main>
 
-  <footer>
-    <div>
-      <img src="./images/logo.svg" alt="" />
-      <div>
+  <footer class="footer">
+    <div class="footer-social-logo">
+      <img src="./images/footerlogo.svg" alt="" class="footer-logo"/>
+      <div class="footer-socials">
         <a href="/"><img src="./images/icon-facebook.svg" alt="" /></a>
         <a href="/"><img src="./images/icon-youtube.svg" alt="" /></a>
         <a href="/"><img src="./images/icon-twitter.svg" alt="" /></a>
@@ -155,20 +158,20 @@
         <a href="/"><img src="./images/icon-instagram.svg" alt="" /></a>
       </div>
     </div>
-    <ul>
+    <ul class="footer-links-1">
       <li><a href="/">About Us</a></li>
       <li><a href="/">Contact</a></li>
       <li><a href="/">Blog</a></li>
     </ul>
-    <ul>
+    <ul class="footer-links-2">
       <li><a href="/">Careers</a></li>
       <li><a href="/">Support</a></li>
       <li><a href="/">Privacy Policy</a></li>
     </ul>
 
-    <div>
+    <div class="footer-copyright">
       <button>Request Invite</button>
-      <p>© Easybank. All Rights Reserved</p>
+      <p class="footer-copyright-text">© Easybank. All Rights Reserved</p>
     </div>
   </footer>
 

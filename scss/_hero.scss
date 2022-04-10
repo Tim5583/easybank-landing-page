@@ -1,0 +1,40 @@
+.hero {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 80px;
+
+    &-background-image {
+        width: 100%;
+    }
+
+    &-mockupImg {
+        width: 100%;
+        position: absolute;
+        top: -20%;
+        left: 0;
+    }
+
+    &-header {
+        font-size: 2.5rem;
+        font-weight: 400;
+        max-width: 380px;
+        margin: auto;
+    }
+
+    &-discription {
+        margin: 1.5rem auto 2rem;
+        max-width: 380px;
+
+    }
+
+    &-invitebtn {
+        padding: 1em 3em;
+        border-radius: 25px;
+        border: none;
+        font-weight: 700;
+        background-image: linear-gradient(90deg, $Pr-Lime-Green, $Pr-Bright-Cyan);
+        color: #fff;
+    }
+}

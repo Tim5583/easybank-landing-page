@@ -1,0 +1,36 @@
+.why-choose {
+    text-align: center;
+    margin-bottom: 40px;
+
+    &-header {
+        font-size: 2.0rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    &-discription {
+        width: 90%;
+        margin: auto;
+        line-height: 29px;
+        max-width: 380px;
+        margin-bottom: 40px;
+    }
+
+    &-col {
+        max-width: 380px;
+        margin: auto;
+        &-icon {
+            margin: 20px auto;
+        }
+
+        &-header {
+            font-weight: 400;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+
+        &-discription {
+            line-height: 29px;
+        }
+    }
+}
