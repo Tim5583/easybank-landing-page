@@ -39,8 +39,13 @@
 
 @media (min-width: 800px) {
     .why-choose {
-        max-width: 1264px;
-        margin: auto;
+        background-color: gray;
+
+        &-container {
+            padding: 30px 10px 0;
+            max-width: 1264px;
+            margin: auto;
+        }
         &-row {
             display: flex;
             align-items: center;
@@ -61,6 +66,7 @@
             width: 300px;
             height: 350px;
             text-align: left;
+            padding: 0;
             // background-color: red;
         }
     }

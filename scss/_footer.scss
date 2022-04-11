@@ -13,6 +13,10 @@
         a {
             color: #fff;
             text-decoration: none;
+
+            &:hover {
+                color: red
+            }
         }
     }
 
@@ -48,6 +52,30 @@
             color: #fff;
             margin: 40px 0;
             font-size: .9rem;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .footer {
+        text-align: left;
+        padding: 40px 10px;
+        &-container {
+            max-width: 1264px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+
+            &-1 {
+                display: flex;
+                justify-content: space-between;
+                width: 50%;
+                // background-color: red;
+            }
+        }
+
+        &-copyright {
+            text-align: right;
         }
     }
 }

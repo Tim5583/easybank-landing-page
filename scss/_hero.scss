@@ -1,9 +1,12 @@
 .hero {
-    position: relative;
     overflow: hidden;
     text-align: center;
     padding: 0 10px;
     margin-bottom: 80px;
+
+    &-images {
+        position: relative;
+    }
 
     &-background-image {
         width: 100%;
@@ -36,5 +39,34 @@
         font-weight: 700;
         background-image: linear-gradient(90deg, $Pr-Lime-Green, $Pr-Bright-Cyan);
         color: #fff;
+    }
+}
+
+@media (min-width: 800px) {
+    .hero {
+        overflow: initial;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        max-width: 1264px;
+        margin: 0 auto 80px;
+
+        &-images {
+            order: 2;
+
+        }
+
+        &-text {
+            order: 1;
+            text-align: left;
+        }
+
+        &-header {
+            margin: 0;
+        }
+
+        &-discription {
+            margin: 1.5rem 0 2rem;
+        }
     }
 }
