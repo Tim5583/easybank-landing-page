@@ -13,6 +13,8 @@
     .nav {
         z-index: 100;
         position: relative;
+        max-width: 1264px;
+        margin: auto;
         background-color: #fff;
         &-hamburger-icon, &-close-icon {
             display: none;

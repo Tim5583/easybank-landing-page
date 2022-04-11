@@ -46,6 +46,7 @@
             background-image: linear-gradient(90deg, $Pr-Lime-Green, $Pr-Bright-Cyan);
             border: none;
             border-radius: 25px;
+            cursor: pointer;
         }
 
         .footer-copyright-text {
@@ -72,6 +73,10 @@
                 width: 50%;
                 // background-color: red;
             }
+        }
+
+        &-social-logo {
+            width: 200px;
         }
 
         &-copyright {

@@ -34,6 +34,8 @@ body {
   .nav {
     z-index: 100;
     position: relative;
+    max-width: 1264px;
+    margin: auto;
     background-color: #fff;
   }
   .nav-hamburger-icon, .nav-close-icon {
@@ -136,6 +138,7 @@ body {
   background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
   background-image: linear-gradient(90deg, #31d35c, #2bb7da);
   color: #fff;
+  cursor: pointer;
 }
 
 @media (min-width: 800px) {
@@ -164,6 +167,7 @@ body {
   }
   .hero-header {
     margin: 0;
+    max-width: 400px;
   }
   .hero-discription {
     margin: 1.5rem 0 2rem;
@@ -380,6 +384,7 @@ body {
   background-image: linear-gradient(90deg, #31d35c, #2bb7da);
   border: none;
   border-radius: 25px;
+  cursor: pointer;
 }
 
 .footer-copyright .footer-copyright-text {
@@ -411,6 +416,9 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 50%;
+  }
+  .footer-social-logo {
+    width: 200px;
   }
   .footer-copyright {
     text-align: right;
