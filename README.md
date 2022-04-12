@@ -1,4 +1,4 @@
-# Frontend Mentor - Easybank landing page
+# Easybank landing page
 
 ## Table of contents
 
@@ -14,6 +14,7 @@
 ### Screenshot
 
 ![the screenshot](./Screenshot.png)
+[Live site](https://easybanklandingpag.netlify.app/)
 
 ## My process
 
@@ -23,6 +24,8 @@
 - CSS custom properties
 - Flexbox
 - grid
+- JavaScript
+- scss
 
 ### Useful resources
 

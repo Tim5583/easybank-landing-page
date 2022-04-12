@@ -55,6 +55,7 @@
 
         &-images {
             order: 2;
+            flex-basis: 60%;
         }
 
         &-text {
@@ -70,5 +71,11 @@
         &-discription {
             margin: 1.5rem 0 2rem;
         }
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero {
+        grid-template-columns: 1fr 1.5fr;
     }
 }
