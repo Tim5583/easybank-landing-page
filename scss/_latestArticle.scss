@@ -21,7 +21,7 @@
         text-align: left;
         max-width: 370px;
         padding-bottom: 40px;
-        background-color: #aaa;
+        background-color: $n-White;
 
         img {
             width: 100%;
@@ -41,6 +41,10 @@
                 color: #000;
                 text-decoration: none;
                 font-weight: 400;
+
+                &:hover {
+                    color: $Pr-Lime-Green;
+                };
             }
         }
 
@@ -54,7 +58,8 @@
 @media (min-width: 800px) {
     .latestArticle {
         max-width: 1264px;
-        margin: 50px auto 0;
+        width: 90%;
+        margin: 100px auto 0;
         &-row {
             display: flex;
             justify-content: space-between;

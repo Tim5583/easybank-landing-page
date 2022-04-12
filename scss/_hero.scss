@@ -29,7 +29,7 @@
     &-discription {
         margin: 1.5rem auto 2rem;
         max-width: 380px;
-
+        color: $n-Grayish-Blue;
     }
 
     &-invitebtn {
@@ -49,6 +49,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
+        width: 90%;
         max-width: 1264px;
         margin: 0 auto 80px;
 

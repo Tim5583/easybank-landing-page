@@ -11,4 +11,20 @@ html {
 
 body {
     font-family: 'Public Sans', sans-serif;
+    background-color: $n-Very-Light-Gray;
+}
+
+.req-btn {
+    padding: 1em 3em;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, $Pr-Lime-Green, $Pr-Bright-Cyan);
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 300ms ease;
+
+    &:hover {
+        opacity: .8;
+    }
 }

@@ -1,6 +1,6 @@
 .footer {
     margin-top: 80px;
-    background-color: rgb(13, 81, 133);
+    background-color: $Pr-Dark-Blue;
     text-align: center;
     padding: 40px 0;
 
@@ -15,7 +15,7 @@
             text-decoration: none;
 
             &:hover {
-                color: red
+                color: $Pr-Lime-Green;
             }
         }
     }
@@ -39,16 +39,6 @@
     }
 
     &-copyright {
-        button {
-            padding: 1em 3em;
-            font-weight: 700;
-            color: #fff;
-            background-image: linear-gradient(90deg, $Pr-Lime-Green, $Pr-Bright-Cyan);
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-        }
-
         .footer-copyright-text {
             color: #fff;
             margin: 40px 0;
@@ -63,6 +53,7 @@
         padding: 40px 10px;
         &-container {
             max-width: 1264px;
+            width: 90%;
             margin: auto;
             display: flex;
             justify-content: space-between;
@@ -74,13 +65,16 @@
                 // background-color: red;
             }
         }
-
-        &-social-logo {
-            width: 200px;
-        }
-
         &-copyright {
             text-align: right;
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .footer {
+        &-social-logo {
+            width: 200px;
         }
     }
 }

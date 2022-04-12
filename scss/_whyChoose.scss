@@ -39,11 +39,12 @@
 
 @media (min-width: 800px) {
     .why-choose {
-        background-color: gray;
+        background-color: $n-Light-Grayish-Blue;
 
         &-container {
             padding: 30px 10px 0;
             max-width: 1264px;
+            width: 90%;
             margin: auto;
         }
         &-row {
